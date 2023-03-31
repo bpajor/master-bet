@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/master-bet/static/css/main.090ca066.css",
+    "main.js": "/master-bet/static/js/main.abb3f287.js",
+    "static/media/PSG.png": "/master-bet/static/media/PSG.7b3a69fc430b92f3d7d0.png",
+    "static/media/inter.png": "/master-bet/static/media/inter.d6f700dfa836ec2ad81f.png",
+    "static/media/Real.png": "/master-bet/static/media/Real.9dc73f3c965b4e8a9186.png",
+    "index.html": "/master-bet/index.html",
+    "main.090ca066.css.map": "/master-bet/static/css/main.090ca066.css.map",
+    "main.abb3f287.js.map": "/master-bet/static/js/main.abb3f287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.090ca066.css",
+    "static/js/main.abb3f287.js"
+  ]
+}
