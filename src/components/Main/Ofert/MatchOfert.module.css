@@ -1,0 +1,27 @@
+.teams {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ofert {
+    margin: 0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgb(125, 188, 25);
+}
+
+span {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+@media screen and (max-width:325px) {
+    span {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+.section {
+    margin: 0;
+    height: 244px;
+    border-bottom: 5px solid black;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.img {
+    border-radius: 15px;
+    /* float: right; */
+    position: sticky;
+    left: 100%
+}
+
+.img:hover {
+    background-color: green;
+}

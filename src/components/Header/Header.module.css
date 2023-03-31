@@ -1,0 +1,70 @@
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(57, 173, 57);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20%;
+    padding-left: 10%;
+}
+
+.text--mb {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.button--check {
+    width: 200px;
+    height: 50%;
+    border: 2px solid black;
+    background-color: rgb(179, 40, 40);
+    border-radius: 20px;
+    font-family: 'Sono';
+    color: white;
+}
+
+.button--check:hover {
+    background-color: brown;
+}
+
+.button--wallet {
+    width: 100px;
+    height: 50%;
+    border: 2px solid black;
+    background-color: rgb(179, 40, 40);
+    color: white;
+    font-family: 'Sono';
+    font-weight: bold;
+}
+
+.button--wallet:hover {
+    background-color: brown;
+}
+
+@media  screen and (max-width: 250px) {
+    .button--wallet {
+        font-size: 0.5rem;
+        width: 50px
+    }
+}
+
+@media  screen and (max-width: 250px) {
+    .button--check {
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .text-container {
+        display: none;
+    }
+}

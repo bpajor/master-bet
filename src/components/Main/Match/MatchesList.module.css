@@ -1,0 +1,27 @@
+.whole-container {
+    width: 100%;
+    overflow: auto;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    height: auto;
+    padding: 0;
+    border-right: 5px solid black;
+}
+
+.ul--animation {
+    animation-duration: 1s;
+    animation-name: beggining;
+}
+
+@keyframes beggining {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

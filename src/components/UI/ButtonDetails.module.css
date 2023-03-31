@@ -1,0 +1,22 @@
+.button {
+    height: 50%;
+    background-color: rgb(69, 212, 69);
+    color: whitesmoke;
+    font-family: 'Sono';
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
+.nodisplay {
+    display: none;
+}
+
+@media screen and (max-width: 782px) {
+    .button {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.section {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.img {
+    border-radius: 15px;
+    float: right;
+}
+
+.img:hover {
+    background-color: green;
+}
+
+.image-container {
+    height: 60px;
+    margin: 0;
+}
+
+.whole-container {
+    height: calc(100% - 60px);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+

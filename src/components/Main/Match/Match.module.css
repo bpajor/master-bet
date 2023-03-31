@@ -1,0 +1,64 @@
+.match {
+  border-bottom: 5px solid black;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 128px;
+}
+
+.div {
+  display: flex;
+  border-radius: 20px;
+  gap: 30px;
+  align-items: center;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.div:hover {
+  background-color: green;
+}
+
+.div:active {
+  background-color: greenyellow;
+}
+
+.teams {
+  font-family: "Sono";
+  text-shadow: 2px 2px 4px green;
+}
+
+.ofert--submited {
+  background-color: rgba(128, 128, 128, 0.459);
+  opacity: 1;
+}
+
+.fixed {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 40px;
+}
+
+
+@media screen and (max-width: 782px) {
+  .div {
+    width: 100%;
+  }
+
+  .teams {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .teams {
+    display: none;
+  }
+
+  .div {
+    justify-content: space-evenly;
+  }
+}
+

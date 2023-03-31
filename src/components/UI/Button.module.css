@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.button {
+    width: 130px;
+    height: 70px;
+    border: 2px solid black;
+    background-color: rgb(179, 40, 40);
+    color: white;
+    font-family: 'Sono';
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: brown;
+}
+
+@media screen and (max-width: 1085px) {
+    .button {
+        width: 70px;
+    }
+}
